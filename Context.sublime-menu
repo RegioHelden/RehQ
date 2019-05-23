@@ -1,0 +1,40 @@
+[{
+  "caption": "RehQ",
+  "children": [
+    { 
+      "command": "rehq_list_snippets",
+      "caption": "Show available snippets"
+    },
+    {
+      "caption": "-"
+    },
+    { 
+      "command": "rehq_font_bold",
+      "caption": "Font: Bold"
+    },
+    { 
+      "command": "rehq_font_italic",
+      "caption": "Font: Italic"
+    },
+    { 
+      "command": "rehq_font_underline",
+      "caption": "Font: Underline"
+    },
+    { 
+      "command": "rehq_font_strike_through",
+      "caption": "Font: Strikethrough"
+    },
+    { 
+      "command": "rehq_font_superscript",
+      "caption": "Font: Superscript"
+    },
+    { 
+      "command": "rehq_font_subscript",
+      "caption": "Font: Subscript"
+    },
+    { 
+      "command": "rehq_font_monospace",
+      "caption": "Font: Monospace"
+    },
+  ]
+}]

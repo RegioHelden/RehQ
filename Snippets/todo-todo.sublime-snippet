@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+%{color:yellow;background:orange}ToDo: ${1}%
+]]></content>
+	<tabTrigger>todo</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Highlighted ToDo</description>
+</snippet>

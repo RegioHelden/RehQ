@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"${1:English}" / "${2:Deutsch}"
+]]></content>
+	<tabTrigger>trans</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Text with inline translations</description>
+</snippet>

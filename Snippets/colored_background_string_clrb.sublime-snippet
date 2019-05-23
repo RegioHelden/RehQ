@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+%\{background:${1:lightblue}\}${2}%
+]]></content>
+	<tabTrigger>clrb</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Colored background</description>
+</snippet>

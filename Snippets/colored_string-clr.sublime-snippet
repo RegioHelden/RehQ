@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+%\{color:${1:grey}\}${2}%
+]]></content>
+	<tabTrigger>clr</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Colored text</description>
+</snippet>

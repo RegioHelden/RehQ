@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"${1:Visible text}":${2:https://url.de}
+]]></content>
+	<tabTrigger>link</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Link to webpage</description>
+</snippet>

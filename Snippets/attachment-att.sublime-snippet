@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+attachment:"${1:file name.png}"
+]]></content>
+	<tabTrigger>att</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Attachment link</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+%\{background:#F7F7F7;color:#E01E5A;border: 1px solid #DDDDDD;\}@${1}@%
+]]></content>
+	<tabTrigger>`</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Inline monospace text (Slack style)</description>
+</snippet>

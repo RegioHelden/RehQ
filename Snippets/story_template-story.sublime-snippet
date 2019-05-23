@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[
+h1. ${4: Story title}
+
+As a ${1: (your role: customer | hc user | webdesigner | customer service employee | seller ...) } I want to ${2: (be able to do / see..., describe the needed functionality) } in order to ${3: (describe the benefit / value you will create, when you have the functionality) }.
+
+h2. Tasks / Features
+
+${5: _Either describe the funcitonality in more detail or list the order of the subtasks here._}
+
+h2. Acceptance Criteria
+
+${7:_Describe what you want to see as an outcome._
+_Possible outcomes are:_
+
+* _What email should be sent (with what content)?_
+* _When you click a button, what should happen?_
+* _What action should be triggered at a given event?_
+
+_You may also give some more concrete examples using the "gherkin language":https://docs.cucumber.io/gherkin/reference/ specification:_
+
+<pre>
+	Given: A customer has an open invoice
+	And: The invoice due date is 2019-06-19
+	When: The due date is exceeded (on 2019-06-20)
+	And: The invoice is still unpaid
+	Then: The invoice status will change to overdue
+	And: The customer will receive a reminder via email
+</pre>}
+]]></content>
+	<tabTrigger>story</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Story template</description>
+</snippet>

@@ -1,0 +1,50 @@
+[
+	{
+		"keys": ["super+b"],
+		"command": "rehq_font_bold",
+		"context": [
+			{ 
+				"key": "selection_empty",
+				"operator": "equal",
+				"operand": false
+			},
+			{
+				"key": "selector",
+				"operator": "equal",
+				"operand": "text.html.textile"
+			}
+		]
+	},
+	{
+		"keys": ["super+i"],
+		"command": "rehq_font_italic",
+		"context": [
+			{ 
+				"key": "selection_empty",
+				"operator": "equal",
+				"operand": false
+			},
+			{
+				"key": "selector",
+				"operator": "equal",
+				"operand": "text.html.textile"
+			}
+		]
+	},
+	{
+		"keys": ["super+u"],
+		"command": "rehq_font_underline",
+		"context": [
+			{ 
+				"key": "selection_empty",
+				"operator": "equal",
+				"operand": false
+			},
+			{
+				"key": "selector",
+				"operator": "equal",
+				"operand": "text.html.textile"
+			}
+		]
+	},
+]
