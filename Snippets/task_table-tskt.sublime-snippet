@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+|_. Issue ID | Feature description |
+tsk${1}
+]]></content>
+	<tabTrigger>tskt</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Task table</description>
+</snippet>

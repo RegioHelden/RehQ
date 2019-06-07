@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+| #${1:redmine task id} | ${2:Short description} |
+${3:tsk}
+]]></content>
+	<tabTrigger>tsk</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Task table entry</description>
+</snippet>

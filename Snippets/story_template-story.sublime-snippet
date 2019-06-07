@@ -1,32 +1,35 @@
 <snippet>
 	<content><![CDATA[
-h1. ${4: Story title}
+h1. ${200:Short, descriptive title for your idea }
 
-As a ${1: (your role: customer | hc user | webdesigner | customer service employee | seller ...) } I want to ${2: (be able to do / see..., describe the needed functionality) } in order to ${3: (describe the benefit / value you will create, when you have the functionality) }.
+h2. Motivation
 
-h2. Tasks / Features
+${100:_Quickly describe the problem you are trying to solve. Focus on the problem, rather than to propose a solution._
+_Some of the questions may have already been answered in you idea form, which you submitted through https://helden.to/pm_idee_
+_*Don't* just copy paste the text though, as the idea should have changed/further developed/gotten more precise in the meantime._
+}
 
-${5: _Either describe the funcitonality in more detail or list the order of the subtasks here._}
+h2. General information
 
-h2. Acceptance Criteria
+table{width: 80%}.
+|_\2=. Task information |
+|={width: 30%}. *Related Asana Task:* |={width: 70%}. "${1:Name of your task}":${2:https://app.asana.com/} |
+|={width: 30%}. *Problem:* |={width: 70%}. ${3: What is the problem you want to solve? } |
+|={width: 30%}. *Target group:* |={width: 70%}. ${4: Who has the problem you want to solve? } |
+|={width: 30%}. *Motivation:* |={width: 70%}. ${5: Why do you want to solve the problem? } |
+|={width: 30%}. *Desired funcitonality:* |={width: 70%}. ${6: In short, what functionality do you want to have? } |
 
-${7:_Describe what you want to see as an outcome._
-_Possible outcomes are:_
 
-* _What email should be sent (with what content)?_
-* _When you click a button, what should happen?_
-* _What action should be triggered at a given event?_
+h2. Feedback & Verification
 
-_You may also give some more concrete examples using the "gherkin language":https://docs.cucumber.io/gherkin/reference/ specification:_
-
-<pre>
-	Given: A customer has an open invoice
-	And: The invoice due date is 2019-06-19
-	When: The due date is exceeded (on 2019-06-20)
-	And: The invoice is still unpaid
-	Then: The invoice status will change to overdue
-	And: The customer will receive a reminder via email
-</pre>}
+table{width: 80%}.
+|_\2=. Meta information |
+|={width: 30%}. *Department(s):* |={width: 70%}. ${7:Which department requested the change } |
+|={width: 30%}. *Owners:* |={width: 70%}. ${8: Who requested the change and can clarify further details? (Fullname, multiple owners comma separated) } |
+|={width: 30%}. *Verify / test with:* |={width: 70%}. ${9: Who will do the final verification? } |
+|={width: 30%}. *Release when:* |={width: 70%}. ${10: Can the story be released after testing? Or at a specific date? } |
+|={width: 30%}. *Inform about release (done by owner):* |={width: 70%}. ${11: Who has to be informed about the release? } |
+|={width: 30%}. *Slack Channel:* |={width: 70%}. ${12:Create a public slack channel prefixed with #dev_...} |
 ]]></content>
 	<tabTrigger>story</tabTrigger>
 	<scope>text.html.textile</scope>
