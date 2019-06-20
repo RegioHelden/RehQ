@@ -1,9 +1,33 @@
 import os
 import unittest
 
-from RehQ.utilities.testing import SublimeCommandTestCase
-from RehQ.utilities.xml import SublimeSnippet
-from RehQ.rehq import RehqListSnippetsCommand, BASE_DIR
+from RehQ.utilities.testing import TextCommandTestCase
+from RehQ.utilities.snippets import SublimeSnippet
+from RehQ.rehq import RehqListSnippetsCommand, BASE_DIR, SNIPPET_DIR
+
+
+class ListSnippetsCommandTest(TextCommandTestCase):
+
+	def setUp(self):
+		self.command = RehqListSnippetsCommand(self.active_view)
+
+	def test_parsed_snippets_are_sublime_snippets(self):
+		snippets = self.command._parse_snippets(SNIPPET_DIR)
+		self.assertTrue(len(snippets) > 0)
+		for snippet in snippets:
+			self.assertEqual(type(snippet), SublimeSnippet)
+
+	def test_only_valid_snippets_are_returned(self):
+		snippet_dir = os.path.join(BASE_DIR, 'tests', 'invalid_snippets')
+		snippets = self.command._parse_snippets(snippet_dir)
+		self.assertTrue(len(snippets) > 0)
+		for snippet in snippets:
+			self.assertTrue(snippet.is_valid())	
+
+	def test_non_sublime_snippets_are_ignored(self):
+		snippet_dir = os.path.join(BASE_DIR, 'tests', 'valid_snippets')
+		snippets = self.command._parse_snippets(snippet_dir)
+		self.assertEqual(len(snippets), 3)
 
 
 class SublimeSnippetObjectTest(unittest.TestCase):

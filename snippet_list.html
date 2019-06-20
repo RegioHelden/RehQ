@@ -11,66 +11,12 @@
             color: #bbb;
         }
     </style>
-    <p>
-        <strong>Story Template</strong><br>
-        <i>Trigger: story</i><br>
-        <span class="fade">Use when starting a new story</span>
-        <br><br>
-    </p>
-
-    <p>
-        <strong>Feature Template</strong><br>
-        <i>Trigger: feat</i><br>
-        <span class="fade">Use to describe the features in a story</span>
-        <br><br>
-    </p>
-
-    <p>    
-        <strong>Colored text</strong><br>
-        <i>Trigger: clr</i><br>
-        <span class="fade">Highlight important information with colored texts</span>
-        <br><br>
-    </p>
-
-    <p>
-        <strong>Background colored text</strong><br>
-        <i>Trigger: clrb</i><br>
-        <span class="fade">Change the background color of your text</span>
-        <br><br>
-    </p>
-
-    <p>
-        <strong>Translations</strong><br>
-        <i>Trigger: trans</i><br>
-        <span class="fade">Provide the English text and the translation in the same line</span>
-        <br><br>
-    </p>
-
-    <p>
-        <strong>Links</strong><br>
-        <i>Trigger: link</i><br>
-        <span class="fade">Link to external web-resources</span>
-        <br><br>
-    </p>
-
-    <p>
-        <strong>Attachments</strong><br>
-        <i>Trigger: att</i><br>
-        <span class="fade">Link attached files in ticket</span>
-        <br><br>
-    </p>
-
-    <p>
-        <strong>Code examples</strong><br>
-        <i>Trigger: `</i><br>
-        <span class="fade">Inline code examples in the style of Slack</span>
-        <br><br>
-    </p>
-
-    <p>
-        <strong>ToDos</strong><br>
-        <i>Trigger: todo</i><br>
-        <span class="fade">Highlighted notes to your future self (ToDo)</span>
-        <br><br>
-    </p>
+    {% for snippet in snippets %}
+        <p>
+            <strong>{{ snippet.title }}</strong><br>
+            <i>Trigger: {{ snippet.trigger }}</i><br>
+            <span class="fade">{{ snippet.hint }}</span>
+            <br><br>
+        </p>    
+    {% endfor %}
 </body>

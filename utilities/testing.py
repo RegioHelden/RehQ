@@ -2,7 +2,7 @@ import sublime
 import unittest
 
 
-class SublimeCommandTestCase(unittest.TestCase):
+class TextCommandTestCase(unittest.TestCase):
 
 	@classmethod
 	def setUpClass(cls):

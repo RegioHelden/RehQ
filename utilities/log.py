@@ -43,7 +43,7 @@ if DEBUG:
 
 def write_log(level, fmtstr, *args):
     message = fmtstr.format(*args)
-    s = "RehQ: [{level}] {message}".format(level=level, message=message)
+    s = "RehQ: [{level}]\t {message}".format(level=level, message=message)
     if DEBUG:
         OutputDebugStringW(s)
     with g_lock:
