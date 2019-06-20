@@ -5,4 +5,6 @@
 	<tabTrigger>`</tabTrigger>
 	<scope>text.html.textile</scope>
 	<description>RehQ - Inline monospace text (Slack style)</description>
+	<title>Code examples</title>
+	<hint>Inline code examples in the style of Slack</hint>
 </snippet>

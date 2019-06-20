@@ -5,4 +5,6 @@
 	<tabTrigger>todo</tabTrigger>
 	<scope>text.html.textile</scope>
 	<description>RehQ - Highlighted ToDo</description>
+	<title>ToDos</title>
+	<hint>Highlighted notes to your future self (ToDo)</hint>
 </snippet>

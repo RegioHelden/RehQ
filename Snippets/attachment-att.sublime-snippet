@@ -5,4 +5,6 @@ attachment:"${1:file name.png}"
 	<tabTrigger>att</tabTrigger>
 	<scope>text.html.textile</scope>
 	<description>RehQ - Attachment link</description>
+	<title>Attachments</title>
+	<hint>Link attached files in ticket</hint>
 </snippet>

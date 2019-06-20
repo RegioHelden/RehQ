@@ -5,4 +5,6 @@
 	<tabTrigger>clr</tabTrigger>
 	<scope>text.html.textile</scope>
 	<description>RehQ - Colored text</description>
+	<title>Colored text</title>
+	<hint>Highlight important information with colored texts</hint>
 </snippet>

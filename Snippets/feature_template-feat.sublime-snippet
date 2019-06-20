@@ -31,4 +31,6 @@ _You may also give some more concrete examples using the "gherkin language":http
 	<tabTrigger>feat</tabTrigger>
 	<scope>text.html.textile</scope>
 	<description>RehQ - Feature template</description>
+	<title>Feature template</title>
+	<hint>Use to describe the features in a story</hint>
 </snippet>

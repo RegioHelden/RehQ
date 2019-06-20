@@ -36,5 +36,17 @@
       "command": "rehq_font_monospace",
       "caption": "Font: Monospace"
     },
+    {
+      "caption": "-"
+    },
+    {
+      "caption": "Development",
+      "children": [
+        { 
+          "command": "rehq_test_snippets",
+          "caption": "Test snippets are well formed"
+        },   
+      ]
+    },
   ]
 }]

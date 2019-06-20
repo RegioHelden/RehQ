@@ -9,6 +9,12 @@ _Some of the questions may have already been answered in you idea form, which yo
 _*Don't* just copy paste the text though, as the idea should have changed/further developed/gotten more precise in the meantime._
 }
 
+h2. Stories
+
+|_. Issue ID | Description |
+| #... | ... |
+${300:_List the stories which belong to the epic. (You can quickly add further entries to the table using the task-snippet.)_}
+
 h2. General information
 
 table{width: 80%}.
@@ -18,22 +24,10 @@ table{width: 80%}.
 |={width: 30%}. *Target group:* |={width: 70%}. ${4: Who has the problem you want to solve? } |
 |={width: 30%}. *Motivation:* |={width: 70%}. ${5: Why do you want to solve the problem? } |
 |={width: 30%}. *Desired funcitonality:* |={width: 70%}. ${6: In short, what functionality do you want to have? } |
-
-
-h2. Feedback & Verification
-
-table{width: 80%}.
-|_\2=. Meta information |
-|={width: 30%}. *Department(s):* |={width: 70%}. ${7:Which department requested the change } |
-|={width: 30%}. *Owners:* |={width: 70%}. ${8: Who requested the change and can clarify further details? (Name at least two owners with fullname, comma separated) } |
-|={width: 30%}. *Verify / test with:* |={width: 70%}. ${9: Who will do the final verification? } |
-|={width: 30%}. *Release when:* |={width: 70%}. ${10: Can the story be released after testing? Or at a specific date? } |
-|={width: 30%}. *Inform about release (done by owner):* |={width: 70%}. ${11: Who has to be informed about the release? } |
-|={width: 30%}. *Slack Channel:* |={width: 70%}. ${12:Create a public slack channel prefixed with #dev_...} |
 ]]></content>
-	<tabTrigger>story</tabTrigger>
+	<tabTrigger>epic</tabTrigger>
 	<scope>text.html.textile</scope>
-	<description>RehQ - Story template</description>
-	<title>Story Template</title>
-	<hint>Use when starting a new story</hint>
+	<description>RehQ - Epic template</description>
+	<title>Epic Template</title>
+	<hint>Use when starting a new epic</hint>
 </snippet>

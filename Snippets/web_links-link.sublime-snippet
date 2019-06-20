@@ -5,4 +5,6 @@
 	<tabTrigger>link</tabTrigger>
 	<scope>text.html.textile</scope>
 	<description>RehQ - Link to webpage</description>
+	<title>Links</title>
+	<hint>Link to external web-pages &amp;amp; resources</hint>
 </snippet>

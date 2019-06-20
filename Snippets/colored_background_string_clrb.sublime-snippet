@@ -5,4 +5,6 @@
 	<tabTrigger>clrb</tabTrigger>
 	<scope>text.html.textile</scope>
 	<description>RehQ - Colored background</description>
+	<title>Background colored text</title>
+	<hint>Change the background color of your text</hint>
 </snippet>

@@ -5,4 +5,6 @@
 	<tabTrigger>trans</tabTrigger>
 	<scope>text.html.textile</scope>
 	<description>RehQ - Text with inline translations</description>
+	<title>Translations</title>
+	<hint>Provide the English text and the translation (in the same line)</hint>
 </snippet>
