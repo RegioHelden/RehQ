@@ -11,7 +11,7 @@
             color: #bbb;
         }
     </style>
-    {% for snippet in snippets %}
+    {% for snippet in snippets|sort(attribute='title') %}
         <p>
             <strong>{{ snippet.title }}</strong><br>
             <i>Trigger: {{ snippet.trigger }}</i><br>

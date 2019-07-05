@@ -49,7 +49,7 @@ class RehqListSnippetsCommand(sublime_plugin.TextCommand):
         with open(os.path.join(BASE_DIR, 'snippet_list.html'), encoding='utf8') as f:
             template = Template(f.read().strip())
         html = template.render(snippets=[x.to_dict() for x in sublime_snippets])
-        self.view.show_popup(html, max_width=512)
+        self.view.show_popup(html, max_width=512, max_height=400)
 
     def _parse_snippets(self, snippet_dir):
         snippet_list = []
