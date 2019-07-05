@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+|_. Issue ID | Description |
+iss${1}
+]]></content>
+	<tabTrigger>isst</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Issue table</description>
+	<title>Issue table</title>
+	<hint>List related (sub-)issues in a table</hint>
+</snippet>

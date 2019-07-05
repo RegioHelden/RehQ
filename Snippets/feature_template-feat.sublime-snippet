@@ -4,9 +4,9 @@ h1. ${4: Feature title}
 
 As a ${1: (your role: customer | hc user | webdesigner | customer service employee | seller ...) } I want to ${2: (be able to do / see..., describe the needed functionality) } in order to ${3: (describe the benefit / value you will create, when you have the functionality) }.
 
-h2. Tasks / Features
+h2. Feature
 
-${5: _Either describe the funcitonality in more detail or list the order of the subtasks here._}
+${5: _Describe the funcitonality in more detail._}
 
 h2. Acceptance Criteria
 
@@ -17,7 +17,7 @@ _Possible outcomes are:_
 * _When you click a button, what should happen?_
 * _What action should be triggered at a given event?_
 
-_You may also give some more concrete examples using the "gherkin language":https://docs.cucumber.io/gherkin/reference/ specification:_
+_You may also give some more concrete logic examples using the "gherkin language":https://docs.cucumber.io/gherkin/reference/ specification:_
 
 <pre>
 	Given: A customer has an open invoice
@@ -26,7 +26,23 @@ _You may also give some more concrete examples using the "gherkin language":http
 	And: The invoice is still unpaid
 	Then: The invoice status will change to overdue
 	And: The customer will receive a reminder via email
-</pre>}
+</pre>
+
+Interfaces may be described from a users perspective as in the form 
+
+<User, which interactes with the system> <action the user performs> <result that will be perceived>
+
+e.g. As a user of the admin group,
+when I navigate to the admin page, I can see
+* a login mask (asking for my username and password)
+* a "login" button
+
+When I click the login button:
+* the form will be validated
+** the username has to exist in the database
+** the password has to be set & correct
+*** Potential error message: A user with the given username/password combination does not exist
+* if the input is valid, I will see the admin dashboard}
 ]]></content>
 	<tabTrigger>feat</tabTrigger>
 	<scope>text.html.textile</scope>

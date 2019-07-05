@@ -13,7 +13,7 @@ h2. Stories
 
 |_. Issue ID | Description |
 | #... | ... |
-${300:_List the stories which belong to the epic. (You can quickly add further entries to the table using the task-snippet.)_}
+${300:_List the stories which belong to the epic. (You can quickly add further entries to the table using the issue-snippet.)_}
 
 h2. General information
 

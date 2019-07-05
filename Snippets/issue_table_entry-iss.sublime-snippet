@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+| #${1:redmine task id} | ${2:Short description} |
+${3:iss}
+]]></content>
+	<tabTrigger>iss</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Issue table entry</description>
+	<title>Issue table row</title>
+	<hint>Add an issue to the issue table</hint>
+</snippet>
