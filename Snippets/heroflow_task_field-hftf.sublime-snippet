@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+*Field: "${10:Field name}" / "${20:Feldname}"*
+_help text:_ "${30:Text shown to the user what data should be entered in the field ("-" if no helptext is needed).}" / "${40:German translation}"
+_placeholder:_ ${50:Example input to show in the field}
+_required:_ ${51:yes}${52:no}
+_usage:_ ${60:Describe to the developer, what kind of data you want to gather? E.g. prices, web addresses, files, images, text...}
+_example data:_ ${70:For more complex fields, some more examples may be given here.}
+
+${80:hftf}
+]]></content>
+	<tabTrigger>hftf</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - HeroFlow Task Field</description>
+	<title>HeroFlow Task Field</title>
+	<hint>Describe a field within a HeroFlow task</hint>
+</snippet>

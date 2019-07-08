@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+p(. *Task name:* ${10:Kampagnengespräch führen}
+*Role:* ${20:Customer Service Employee}
+*Purpose:* ${25:Reminds the service employee to call the customer}
+*State:* ${30:Kampagnengespräch durchgeführt}
+*Available when:* ${40:e.g. process starts / task "Report erstellen" was completed / ...}
+*Issue:* #${50:Redmine issue id}
+
+${60:hfproct}
+]]></content>
+	<tabTrigger>hfproct</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - HeroFlow Processes (task overview)</description>
+	<title>HeroFlow Process (task overview)</title>
+	<hint>Describe a heroflow processes task tree</hint>
+</snippet>
