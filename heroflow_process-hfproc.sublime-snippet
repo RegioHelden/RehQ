@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+h1. ${10:Name of your process}
+
+|_. Name | ${10:Name of your process} |
+|_. Scope | ${20:What is the process used for? Briefly describe the content and the aim of this process.} |
+|_. Trigger | ${30:When does the process become available? E.g. at a certain time or after product creation/status change? } |
+|_. Based on | ${40:Is there any other process, which is very similar to this process? Enter "-" if you define a completely new process.} |
+|_. Process graph | ${50:Attach the graph of your process (e.g. made with draw.io)} |
+
+h2. HeroFlow Tasks
+
+${60:_Shortly describe the tasks which are part of the process tree. Every task should be described in more detail in a separate ticket. Add the ticket as a subtask to this issue! You can use the HeroFlow Process Task snippet_.}
+
+${70:hfproct}
+]]></content>
+	<tabTrigger>hfproc</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - HeroFlow Processes</description>
+	<title>HeroFlow Process</title>
+	<hint>Describe a new heroflow process</hint>
+</snippet>

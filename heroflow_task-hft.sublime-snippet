@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+h1. ${10:Task name}
+
+*Purpose:*
+_${20:Describe the task content for the developer. Why did you add this task to the process? What do you want to achieve with the completion of this task? E.g. collect the contract information, gather a customers feedback, inform a customer...}_
+
+*Intro/Description:*
+${30:Short introduction for the person working on the task. E.g. "Call the customer and ask him... " / "Rufe den Kunden an und frage ihn... "}
+
+h2. ${40:Section name} ${50:%\{color:grey\}(collapsible)%}
+
+${60:_This is the first section in the process. It will be shown as a heading followed by a horizontal separator. If the section should be collapsible/foldable, you can add the (collapsible) keyword to the heading. (Remove this line from the final ticket.)_}
+
+h3. ${70:Subsection name}
+
+${80:_Use the different field snippets to describe the fields you want to be displayed in this section/subsection._}
+
+]]></content>
+	<tabTrigger>hft</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - HeroFlow Task</description>
+	<title>HeroFlow Task</title>
+	<hint>Describe a heroflow task within a process</hint>
+</snippet>
