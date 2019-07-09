@@ -1,0 +1,6 @@
+[submodule "markupsafe"]
+	path = markupsafe
+	url = https://github.com/pallets/markupsafe
+[submodule "jinja"]
+	path = jinja
+	url = https://github.com/pallets/jinja
