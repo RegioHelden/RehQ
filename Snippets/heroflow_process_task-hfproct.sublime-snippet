@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-p(. *Task name:* ${10:Kampagnengespräch führen}
-*Role:* ${20:Customer Service Employee}
-*Purpose:* ${25:Reminds the service employee to call the customer}
-*State:* ${30:Kampagnengespräch durchgeführt}
-*Available when:* ${40:e.g. process starts / task "Report erstellen" was completed / ...}
+p(. *Task name:* ${5:Plan project} /${10:Projektplanung durchführen}
+*Role:* ${20:Project manager}
+*Purpose:* ${25:Reminds the project manager to plan the project}
+*State:* ${26:Project planned} / ${30:Projektplanung durchgeführt}
+*Available when:* ${40:e.g. process starts | task "Report erstellen" was completed | one/all of the tasks XY was/were completed ... }
 *Issue:* #${50:Redmine issue id}
 
 ${60:hfproct}

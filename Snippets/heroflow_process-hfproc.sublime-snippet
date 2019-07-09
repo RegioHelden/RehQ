@@ -1,11 +1,15 @@
 <snippet>
 	<content><![CDATA[
-h1. ${10:Name of your process}
+h1. ${10:Name of your process (English)}
 
-|_. Name | ${10:Name of your process} |
+|_. Name | ${10:Name of your process (English)} / ${15:Name of your process (German)}  |
 |_. Scope | ${20:What is the process used for? Briefly describe the content and the aim of this process.} |
-|_. Trigger | ${30:When does the process become available? E.g. at a certain time or after product creation/status change? } |
+|_. Trigger | ${30:When to create the process? E.g. at a certain time or after product creation/status change? } |
+|_. Constraint / Available (as long as) | ${35:What conditions have to be met in order for the process to be available? Customer has to be approved, product has to be active, etc. } |
+|_. Check constraint frequency  | ${36:How often should the system check, if the constraint is met? Every hour, every day, every week?} |
 |_. Based on | ${40:Is there any other process, which is very similar to this process? Enter "-" if you define a completely new process.} |
+|_. Related entity | ${42:Is the process specific to a customer / product(s) / location...?} |
+|_. Exit points | ${44:Except for the final task, could this process be terminated by another task?} |
 |_. Process graph | ${50:Attach the graph of your process (e.g. made with draw.io)} |
 
 h2. HeroFlow Tasks

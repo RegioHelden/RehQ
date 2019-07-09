@@ -1,21 +1,37 @@
 <snippet>
 	<content><![CDATA[
-h1. ${10:Task name}
+h1. ${10:Task name (English)} / ${15:Task name (German)}
 
-*Purpose:*
+h2. *Purpose:*
+
 _${20:Describe the task content for the developer. Why did you add this task to the process? What do you want to achieve with the completion of this task? E.g. collect the contract information, gather a customers feedback, inform a customer...}_
+
+h2. Content
 
 *Intro/Description:*
 ${30:Short introduction for the person working on the task. E.g. "Call the customer and ask him... " / "Rufe den Kunden an und frage ihn... "}
 
-h2. ${40:Section name} ${50:%\{color:grey\}(collapsible)%}
+h3. Task information (only displayed)
 
-${60:_This is the first section in the process. It will be shown as a heading followed by a horizontal separator. If the section should be collapsible/foldable, you can add the (collapsible) keyword to the heading. (Remove this line from the final ticket.)_}
+h4. ${40:Section name} ${50:%\{color:grey\}(collapsible)%}
 
-h3. ${70:Subsection name}
+${60:_This is the first section in the process. It will be shown as a heading followed by a horizontal separator.
+List the information, which you want to have displayed within the task.
+Sub-sections may be introduces when needed.
+If the section should be collapsible/foldable, you can add the (collapsible) keyword to the heading. (Remove this line from the final ticket.)_}
 
-${80:_Use the different field snippets to describe the fields you want to be displayed in this section/subsection._}
+h3. Task forms
 
+h4. ${70:Section name}
+
+${80:_This is the second section in the process. Here you can ask the user to provide information through a form. Sub-sections may be introduces when needed (they cannot be collapsible, though).
+(Remove this line from the final ticket.)_}
+
+${90:_Use the different field snippets to describe the fields you want to be displayed in this section/subsection._}
+
+h2. Hooks
+
+${100:_List any events which should be triggered, after the task was completed here. E.g. send an email, activate a product, call an api, ..._}
 ]]></content>
 	<tabTrigger>hft</tabTrigger>
 	<scope>text.html.textile</scope>

@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+*Sender:* ${10:kundenservice@regiohelden.de}
+*To:* ${20:customer contact address}
+*CC:* ${30:-}
+*BCC:* ${40:-}
+*Reply-To:* ${50:-}
+*Subject:* Ströer Online Marketing - ${60:-}
+*Content:*
+---
+${70:-}
+
+---
+*Attachments:* ${80:-}
+*Trigger:* ${90:e.g. Process task xy was finished, product status changed,...}
+*Layout:* You can find a list of available mail components under https://herocentral.de/email_components/
+]]></content>
+	<tabTrigger>email</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Email</description>
+	<title>Email</title>
+	<hint>Describe an automatically sent mail</hint>
+</snippet>
