@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+%\{color:darkred\}Remove% ${1}
+]]></content>
+	<tabTrigger>rm</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Remove info</description>
+	<title>Remove info</title>
+	<hint>Info to be removed from the system (highlighted in red)</hint>
+</snippet>

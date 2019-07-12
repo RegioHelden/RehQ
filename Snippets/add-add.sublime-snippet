@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+%\{color:green\}Add% ${1}
+]]></content>
+	<tabTrigger>add</tabTrigger>
+	<scope>text.html.textile</scope>
+	<description>RehQ - Add info</description>
+	<title>Add info</title>
+	<hint>Info to be added to the system (highlighted in green)</hint>
+</snippet>
