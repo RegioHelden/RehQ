@@ -1,0 +1,8 @@
+{
+   "*": {
+      "*": [
+      	 "markupsafe",
+         "python-jinja2"
+      ]
+   }
+}
