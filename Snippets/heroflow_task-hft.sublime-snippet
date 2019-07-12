@@ -9,7 +9,7 @@ _${20:Describe the task content for the developer. Why did you add this task to 
 h2. Content
 
 *Intro/Description:*
-${30:Short introduction for the person working on the task. E.g. "Call the customer and ask him... " / "Rufe den Kunden an und frage ihn... "}
+${30:Short introduction for the person working on the task. E.g. "Write an email with the information... " / "Schreibe eine e-Mail mit den Infos... "}
 
 h3. Task information (only displayed)
 
