@@ -3,15 +3,19 @@ A Sublime Text 3 plugin for writing Epics and User Stories (in textile markup)
 
 ## Installation
 
-You may install the plugin as any other plugin through package control.
+You may install the plugin as any other plugin through package control. Since this repository is not part of the official package control channel, you have to add the url manually, though (see steps 4 & 5).
 
 If you don't know, what package control is or don't even have Sublime Text installed yet, follow these setps:
+
 
 1. Download and install the [Sublime Text Editor](https://www.sublimetext.com/)
 2. Open Sublime Text and install package control (click _tools_ > _Install Package Control_)
 3. Open the Sublime Text Command Palette (_tools_ > _Command Palette..._)
-4. Type "Install Package" and hit enter (_Package Control: Install Package_)
-5. Wait for the plugins to load, search for "RehQ" and hit enter again
+4. Type "Add Repository" and hit enter (_Package Control: Add Repository_)
+5. Copy and paste the repository url ([https://github.com/RegioHelden/RehQ/](https://github.com/RegioHelden/RehQ/)) and hit enter
+6. Open the Sublime Text Command Palette (_tools_ > _Command Palette..._)
+7. Type "Install Package" and hit enter (_Package Control: Install Package_)
+8. Wait for the plugins to load, search for "RehQ" and hit enter again
 
 The plugin will now be installed.
 
@@ -30,7 +34,10 @@ If you want your own snippets to be listed in the available snippets list, make 
 
 A check can be run from the context menu, to test if your custom snippets are well-formed (right click > _RehQ_ > _Development_).
 
-Once the well-form snippets exist in the `SNIPPET_DIR`, they will be listed in the _Show available snippets_ window. Currently, the snippets are shown in no particular order.
+Once the well-form snippets exist in the `SNIPPET_DIR`, they will be listed in the _Show available snippets_ window. The snippets are shown in alphabetical order.
+
+For furhter info refer to the [wiki page](https://github.com/RegioHelden/RehQ/wiki).
+
 
 ## Font formatting
 
